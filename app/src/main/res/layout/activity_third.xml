@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLight">  <!-- Screen background color -->
+
+    <!-- Button to open a website -->
+    <Button
+        android:id="@+id/btnOpenWebsite"
+        android:text="@string/open_website"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button to open phone dialer -->
+    <Button
+        android:id="@+id/btnDialNumber"
+        android:text="@string/dial_number"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLight">
+
+    <!-- TextView to show book details -->
+    <TextView
+        android:id="@+id/textBookDetails"
+        android:text="Book Details will appear here"
+        android:textSize="18sp"
+        android:textColor="@color/primaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button to take a photo -->
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:text="@string/take_photo"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Next button to go to ThirdActivity -->
+    <Button
+        android:id="@+id/btnNext"
+        android:text="@string/next"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

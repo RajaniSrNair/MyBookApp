@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLight"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Book Title -->
+        <EditText
+            android:id="@+id/editTitle"
+            android:hint="@string/book_title_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/primaryDark"
+            android:backgroundTint="@color/primaryColor"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/book_title_hint" />
+
+        <!-- Author Name -->
+        <EditText
+            android:id="@+id/editAuthor"
+            android:hint="@string/book_author_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/primaryDark"
+            android:backgroundTint="@color/primaryColor"
+            android:layout_marginTop="16dp"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/book_author_hint" />
+
+        <!-- Publication Year -->
+        <EditText
+            android:id="@+id/editYear"
+            android:hint="@string/book_year_hint"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/primaryDark"
+            android:backgroundTint="@color/primaryColor"
+            android:layout_marginTop="16dp"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/book_year_hint" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnNext"
+            android:text="@string/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="24dp"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/next" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">MyBookApp</string>
+
+    <!-- Existing buttons -->
+    <string name="open_website">Open Website</string>
+    <string name="dial_number">Dial Number</string>
+
+    <!-- Main Activity hints -->
+    <string name="book_title_hint">Enter book title</string>
+    <string name="book_author_hint">Enter author name</string>
+    <string name="book_year_hint">Enter publication year</string>
+
+    <!-- Main Activity button -->
+    <string name="submit">Submit</string>
+
+    <!-- Second Activity buttons -->
+    <string name="take_photo">Take Photo</string>
+    <string name="next">Next</string>
+
+</resources>
