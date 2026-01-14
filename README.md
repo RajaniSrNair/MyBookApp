@@ -15,7 +15,7 @@ MyBookApp is a simple Android (Java) application built for learning MVC developm
 ## Demo Video
 Video link to view the app features and implementation: https://youtu.be/5EGAWQkevic
 
-Video link for phone screen (Emulator) recording: https://youtube.com/shorts/Hnoy-b384V8?feature=share    
+Video link for phone screen (Emulator) recording:   https://youtu.be/_ZtWIdsCH9U    
 
 ## Project Structure
 BookApp/
