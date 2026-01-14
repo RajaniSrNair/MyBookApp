@@ -1,6 +1,6 @@
 # MyBookApp
 
-MyBookApp is a simple Android application built in Java that demonstrates multi-activity navigation, passing objects between activities, and using alternative resources. This app is part of an Android assignment project and serves as a learning tool for Android development concepts.
+MyBookApp is a simple Android (Java) application built for learning MVC development (Java+XML) that demonstrates multi-activity navigation, implicit intents, object passing between activities, resource management, and lifecycle state handling.
 
 ---
 
